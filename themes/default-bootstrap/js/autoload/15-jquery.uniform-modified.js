@@ -791,7 +791,7 @@ Enjoy!
 
                     if (options.selectAutoWidth) {
                         sizingInvisible($el, function () {
-                            origElemWidth = $el.width();
+                            origElemWidth = $el.width()+11;
                         });
                     }
 
